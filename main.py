@@ -31,8 +31,8 @@ def main():
     # game.getAvailablePieces()
     # game.getFreePlaces()
     # placeReward, pieceReward = game.learnModelParams(copy.deepcopy(game.availablePieces))
-    # save("finalPlaceWeight2.npy", placeReward)
-    # save("finalPieceWeight2.npy", pieceReward)
+    # save("finalPlaceWeight5.npy", placeReward)
+    # save("finalPieceWeight5.npy", pieceReward)
 
     pieceReward = numpy.load('finalPieceWeight2.npy', allow_pickle=True)
     pieceReward = dict(enumerate(pieceReward.flatten(), 1))
