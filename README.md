@@ -5,7 +5,7 @@ This repository is allocated for the final project of Computational Intelligence
 ## About the Project
 The project is about a game named Quarto which is a two-player game and has a board and 16 pieces. The pieces have four characteristics (High/Not High, Colored/Not Colored, Square/Not Square, Solid/ Not Solid). Players choose a piece for their opponent to play and the apponent chooses the best possible position for it on the board. The player who places 4 pieces with the same characteristics in a row, column or diagonal to form a Quarto, is the winner.
 
-## Approach: Reinfocement Learning<br>
+## Approach: Reinforcement Learning<br>
 
 We run the code developed in an iterative manner to learn the weights. Then, we use the weights achieved to compete with a random opponent.
 
