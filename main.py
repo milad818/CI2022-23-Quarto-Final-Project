@@ -34,10 +34,10 @@ def main():
     # save("finalPlaceWeight5.npy", placeReward)
     # save("finalPieceWeight5.npy", pieceReward)
 
-    pieceReward = numpy.load('finalPieceWeight2.npy', allow_pickle=True)
+    pieceReward = numpy.load('finalPieceWeight4.npy', allow_pickle=True)
     pieceReward = dict(enumerate(pieceReward.flatten(), 1))
     pieceReward = pieceReward[1]
-    placeReward = numpy.load('finalPlaceWeight2.npy', allow_pickle=True)
+    placeReward = numpy.load('finalPlaceWeight4.npy', allow_pickle=True)
     placeReward = dict(enumerate(placeReward.flatten(), 1))
     placeReward = placeReward[1]
     print(pieceReward)
